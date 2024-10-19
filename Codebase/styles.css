@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #04061E 0%, #080B39 50%, #04061E 100%);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #1E1E1E;
+    align-items: center;
+}
+
+
+/* 设置窗口的样式 */
+.settings-container {
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    background-color: #2A2D49;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    display: none;
+    z-index: 100;
+    width: 250px; /* 根据需要调整宽度 */
+}
+
+.settings-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 关闭按钮样式 */
+.close-btn {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    background: none !important;  /* 无背景 */
+    border: none !important;  /* 去除边框 */
+    color: #FFFFFF !important;  /* 白色字体 */
+    font-size: 24px !important;  /* 字体大小 */
+    cursor: pointer !important;
+    padding: 0 !important;  /* 去除内边距 */
+    line-height: 1 !important;  /* 调整行高 */
+    width: 24px !important;  /* 设置宽度 */
+    height: 24px !important;  /* 设置高度 */
+}
+
+/* 显示设置窗口 */
+.show {
+    display: block !important;
+}
+
+.settings-box label {
+    margin: 10px 0 5px;
+}
+
+.settings-box input {
+    margin-bottom: 10px;
+}
+
+
+/* 显示设置窗口 */
+.show {
+    display: block !important;
+}
+
+
+.back-btn {
+    background-color: transparent; /* 确保按钮背景透明 */
+    border: none; /* 去掉默认边框 */
+    padding: 0; /* 去掉按钮的默认内边距 */
+}
+
+.back-btn img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: transparent; /* 确保图片背景透明 */
+}
+
+
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.user-count img {
+    width: 40px;
+    height: 40px;
+}
+
+.content {
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.teleprompter {
+    height: 85%;  /* 保持题词框的高度 */
+    overflow: hidden;  /* 隐藏溢出的文本，确保只显示可视部分 */
+    background-color: #2A2D49;  /* 背景色 */
+    border: 1px solid #FFFFFF;  /* 边框 */
+    border-radius: 10px;  /* 圆角 */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  /* 内容从顶部开始 */
+    text-align: center;  /* 文本居中 */
+    font-size: 24px;  /* 设置较大的字体 */
+    line-height: 1.5;  /* 设置行间距 */
+    color: #FFFFFF;
+}
+
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.settings-btn, .start-btn, .reset-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.settings-btn img, .start-btn img, .reset-btn img {
+    height: 50px;
+    width: auto;
+}
+
+.comments {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    background-color: #000000; /* 背景颜色设置为黑色或你想要的颜色 */
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: left;
+    max-height: 80px; /* 设置最大高度 */
+    min-height: 80px; /* 设置最小高度，确保即便没有评论内容也有固定的空间 */
+    overflow-y: hidden; /* 当评论超出时显示滚动条 */
+    border: 1px solid #fff; /* 为评论区添加白色边框 */
+}
+
+.comments p {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+
+.comments p {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+/* 弹出表情的样式 */
+.emoji-popup {
+    position: absolute;
+    z-index: 20;
+    pointer-events: none;
+    animation: fadeOut 2s forwards;
+    opacity: 1;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.5);
+    }
+}

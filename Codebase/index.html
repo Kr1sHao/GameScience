@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teleprompter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <button class="back-btn" onclick="goBack()">
+            <img src="image/back_button.png" alt="Back">
+        </button>
+        <h1>DECO 7381 A2 Pre</h1>
+        <div class="user-count">
+            <img src="image/count.png" alt="User count">
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="teleprompter" id="teleprompter">
+            <!-- 文稿内容 -->
+            <p>As we convene to address the pressing issue of natural disasters, it's crucial to reflect on the recent incidents that have underscored the critical need for our project.
+                P2
+                These images capture the devastating DivaS/Tating Brisbane floods of 2022. These incidents not only disrupt lifes, they also challenge our resilience ReZiLiance and preparedness. It's in the face of such urgent need that I'm introducing our new Flood Warning System application.
+                P3
+                Our app empowers individuals and communities to take effective action in the face of disasters.
+                the primary function is the warning system. Our advanced AI model analyzes historical meteorological data, real-time hydrological data, and geographic information to predict potential flood intimidate. It then promptly issues warnings to users, ensuring they have the information they need.
+                The second function is evacuation routes and shelter information; in the case of a flood warning, the system will highlight dangerous areas based on predictions, and users can quickly find nearby shelters in the software.
+                We call the third function Survival Guide, a section where users can gain survival knowledge and accumulate survival skills daily to improve their preparedness for the possibility of a flood.
+                p4
+                In functional design, we prioritize the design of the function itself, adhering to the "Form Follows Function" principle to ensure the design reflects the intended purpose. We also apply the Single Responsibility principle, where each module is de/dicated to a single task, minimizing system errors.
+                For UI design, we incorporate Consistency, Usability, and ProximityProc/Cimity principles. A consistent thematic style ensures uniformity, extensive visualization enhances usability, and modularity, combined with proximity, improves user-friendliness.
+                
+                In functional design, we prioritize function, following the "Form Follows Function" principle to align design with purpose. We also implement the Single Responsibility principle, assigning each module a specific task to minimize errors. For UI design, we emphasize Consistency, Usability, and Proximity: consistent themes ensure uniformity, visualization enhances usability, and modularity with close proximity improves user-friendliness.
+                
+                p6
+                Our target users are local Brisbane residents, and our stakeholders are the government and the media; for the government, flood damage can be more effectively prevented and mitigated by using advanced early warning systems and accurate data support to optimize flood response stra tegies. 
+                The media can demonstrate its positive role in public safety and social responsibility by reporting timely flood warning information and enhancing credibility. 
+                </p>
+        </div>
+        <div class="controls">
+            <button class="settings-btn" id="settings-btn">
+                <img src="image/Setting_button.png" alt="Settings">
+            </button>
+            <button class="start-btn" id="start-btn">
+                <img src="image/Start_button.png" alt="Start">
+            </button>
+            <button class="reset-btn" id="reset-btn">
+                <img src="image/Reset_button.png" alt="Reset">
+            </button>
+        </div>
+    </div>
+
+    <div id="settings-container" class="settings-container hidden">
+        <div class="settings-box">
+            <button id="close-settings" class="close-btn">&times;</button> <!-- 右上角关闭按钮 -->
+            <h3>Settings</h3>
+            <label for="scrollSpeed">Scroll Speed:</label>
+            <input type="range" id="scrollSpeed" min="1" max="10" value="1">
+            
+            <label for="fontSize">Font Size:</label>
+            <input type="range" id="fontSize" min="16" max="40" value="24">
+            
+            <label for="scrollTime">Scroll Time (Seconds):</label>
+            <input type="number" id="scrollTime" min="10" max="1000" value="50">
+    
+            <button id="save-settings">Save</button>
+        </div>
+    </div>
+    
+    
+    <div class="comments" id="comments">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
