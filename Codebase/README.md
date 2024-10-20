@@ -61,7 +61,7 @@
   - `styles.css`: Styling for the prompter interface.
  
 ### Project Structure
-  - Codebase/(https://github.com/Kr1sHao/GameScience/wiki): Contains the main project code files and Arduino implementation.
+  - [Codebase](https://github.com/Kr1sHao/GameScience/wiki): Contains the main project code files and Arduino implementation.
   - Interview Transcript/: Includes transcripts from initial interviews.
   - Photos/: Contains image resources related to the course this semester.
   - Poster/: Displays the poster used for the Trade Show.
