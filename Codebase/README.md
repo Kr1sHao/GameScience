@@ -74,10 +74,10 @@ For further information about the design, development process, and background of
 
 - [GitHub Wiki Home](https://github.com/Kr1sHao/GameScience/wiki)
   - [Design Overview](https://github.com/Kr1sHao/GameScience/wiki/Design-Overview)
-  - [Design Process Methods, Activities, and Techniques](https://github.com/Kr1sHao/GameScience/wiki/Design-Process-Methods,-Activities-and-Techniques)
+  - [Design Process Methods, Activities, and Techniques](https://miro.com/app/board/uXjVLQ2Sli0=/?share_link_id=340688655345)
   - [Ethics Considerations](https://github.com/Kr1sHao/GameScience/wiki/Ethics-Considerations)
   - [Literature Support](https://github.com/Kr1sHao/GameScience/wiki/Literature-Support)
-  - [Stand-up Meeting 1](https://github.com/Kr1sHao/GameScience/wiki/Stand-up-Meeting-1)
-  - [Stand-up Meeting 2](https://github.com/Kr1sHao/GameScience/wiki/Stand-up-Meeting-2)
+  - [Stand-up Meeting 1](https://github.com/Kr1sHao/GameScience/wiki/Stand%E2%80%90up-Meeting-1)
+  - [Stand-up Meeting 2](https://github.com/Kr1sHao/GameScience/wiki/Stand%E2%80%90up-Meeting-2)
 
 
