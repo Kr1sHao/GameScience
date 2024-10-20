@@ -61,12 +61,12 @@
   - `styles.css`: Styling for the prompter interface.
  
 ### Project Structure
-  - `Codebase/: Contains the main project code files and Arduino implementation.
-  - `Interview Transcript/: Includes transcripts from initial interviews.
-  - `Photos/: Contains image resources related to the course this semester.
-  - `Poster/: Displays the poster used for the Trade Show.
-  - `Prototyping Process Builds/: Files documenting the prototyping process of the project.
-  - `Questionnaire Data/: Contains data collected from questionnaires.
+  - Codebase/: Contains the main project code files and Arduino implementation.
+  - Interview Transcript/: Includes transcripts from initial interviews.
+  - Photos/: Contains image resources related to the course this semester.
+  - Poster/: Displays the poster used for the Trade Show.
+  - Prototyping Process Builds/: Files documenting the prototyping process of the project.
+  - Questionnaire Data/: Contains data collected from questionnaires.
 
 ### Additional Documentation and Resources
 
