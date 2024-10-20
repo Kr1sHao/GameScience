@@ -61,7 +61,7 @@
   - `styles.css`: Styling for the prompter interface.
  
 ### Project Structure
-  - Codebase/: Contains the main project code files and Arduino implementation.
+  - Codebase/(https://github.com/Kr1sHao/GameScience/wiki): Contains the main project code files and Arduino implementation.
   - Interview Transcript/: Includes transcripts from initial interviews.
   - Photos/: Contains image resources related to the course this semester.
   - Poster/: Displays the poster used for the Trade Show.
@@ -72,7 +72,8 @@
 
 For further information about the design, development process, and background of the **SpeechEasy** project, please refer to our Wiki:
 
-- [GitHub Wiki Home]([https://github.com/Kr1sHao/GameScience/wiki](https://github.com/Kr1sHao/GameScience/wiki/Design-Overview))
+- [GitHub Wiki Home](https://github.com/Kr1sHao/GameScience/wiki)
+  - [Design Overview](https://github.com/Kr1sHao/GameScience/wiki/Design-Overview)
   - [Design Process Methods, Activities, and Techniques](https://github.com/Kr1sHao/GameScience/wiki/Design-Process-Methods,-Activities-and-Techniques)
   - [Ethics Considerations](https://github.com/Kr1sHao/GameScience/wiki/Ethics-Considerations)
   - [Literature Support](https://github.com/Kr1sHao/GameScience/wiki/Literature-Support)
