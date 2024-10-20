@@ -61,12 +61,12 @@
   - `styles.css`: Styling for the prompter interface.
  
 ### Project Structure
-  - [Codebase](https://github.com/Kr1sHao/GameScience/wiki): Contains the main project code files and Arduino implementation.
-  - Interview Transcript/: Includes transcripts from initial interviews.
-  - Photos/: Contains image resources related to the course this semester.
-  - Poster/: Displays the poster used for the Trade Show.
-  - Prototyping Process Builds/: Files documenting the prototyping process of the project.
-  - Questionnaire Data/: Contains data collected from questionnaires.
+  - [Codebase](https://github.com/Kr1sHao/GameScience/tree/main/Codebase): Contains the main project code files and Arduino implementation.
+  - [Interview Transcript](https://github.com/Kr1sHao/GameScience/tree/main/Interview%20Transcript): Includes transcripts from initial interviews.
+  - [Photos](https://github.com/Kr1sHao/GameScience/tree/main/Photos): Contains image resources related to the course this semester.
+  - [Poster](https://github.com/Kr1sHao/GameScience/tree/main/Poster): Displays the poster used for the Trade Show.
+  - [Prototyping Process Builds](https://github.com/Kr1sHao/GameScience/tree/main/Prototyping%20Process%20Builds): Files documenting the prototyping process of the project.
+  - [Questionnaire Data](https://github.com/Kr1sHao/GameScience/tree/main/Questionnaire%20Data): Contains data collected from questionnaires.
 
 ### Additional Documentation and Resources
 
